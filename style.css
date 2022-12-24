@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    z-index: 1000;
+}
+
+.cards-section {
+    position: relative;
+    top: 92px;
+    left: 18px;
+    width: 96vw;
+    margin-bottom: 150px;
+}
+.cards-section .cards-heading {
+    margin-bottom: 15px;
+}
+
+.cards-section img {
+    background-color: grey;
+}
+
+.left-btn .btn {
+    margin: 0;
+    padding: 0;
+    border: 1px black;
+}
+
+footer {
+    width: 96vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 18px;
+}
+
+.bd-footer .footer-heading span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.personal-info .photo img {
+    width: 15vw;
+}
+
+.info-container li {
+    list-style-type: none;
+}
+
+.info-container li a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-container span {
+    font-size: 16px;
+    padding: 5px;
+}
