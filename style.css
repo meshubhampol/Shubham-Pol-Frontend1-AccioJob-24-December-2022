@@ -28,33 +28,22 @@ nav {
     border: 1px black;
 }
 
-footer {
-    width: 96vw;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 18px;
+.bd-footer .photo {
+    width: 190px;
+    height: auto;
 }
 
-.bd-footer .footer-heading span {
+#footer .px-2 {
     font-size: 24px;
     font-weight: 600;
 }
 
-.personal-info .photo img {
-    width: 15vw;
+#footer .name, #footer a {
+    font-size: 24px;
+    font-weight: 400;
 }
 
-.info-container li {
-    list-style-type: none;
-}
-
-.info-container li a {
+#footer a {
     text-decoration: none;
     color: black;
-}
-
-.info-container span {
-    font-size: 16px;
-    padding: 5px;
 }

@@ -1,408 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Gallery Project with footer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Gallery Project with footer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
+
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
-    <nav id="navbar" class="navbar position-fixed container-fluid navbar-dark bg-dark navbar-expand-lg bg-light">
-        <div class="container-fluid mx-4">
-          <a class="navbar-brand" href="#">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/009/632/804/small/svg-letter-logo-design-with-polygon-shape-svg-polygon-and-cube-shape-logo-design-svg-hexagon-logo-template-white-and-black-colors-svg-monogram-business-and-real-estate-logo-vector.jpg" alt="logo" width="52px" height="47px">
-          </a>
-          <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#navbar" role="button">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#footer" role="button">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#flex-cards" role="button">Gallery</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav id="navbar" class="navbar fixed-top container-fluid navbar-dark bg-dark navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand justify-content-start" href="#">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/009/632/804/small/svg-letter-logo-design-with-polygon-shape-svg-polygon-and-cube-shape-logo-design-svg-hexagon-logo-template-white-and-black-colors-svg-monogram-business-and-real-estate-logo-vector.jpg"
+          alt="logo" width="52px" height="47px">
+      </a>
+      <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#navbar" role="button">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#footer" role="button">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#flex-cards" role="button">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      <div class="cards-section">
-        <h1 class="cards-heading" id="flex-cards">Flex Cards</h1>
-        <div class="container-fluid m-0 p-0 mw-100vw" style="box-sizing: border-box;">
-            <div class="row container d-flex flex-grow-1 justify-content-center mx-auto" style="box-sizing: border-box;">
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2" style="box-sizing: border-box;">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row container d-flex flex-grow-1 justify-content-center mx-auto" style="box-sizing: border-box;">
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2" style="box-sizing: border-box;">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row container d-flex flex-grow-1 justify-content-center mx-auto" style="box-sizing: border-box;">
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2" style="box-sizing: border-box;">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row container d-flex flex-grow-1 justify-content-center mx-auto" style="box-sizing: border-box;">
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2" style="box-sizing: border-box;">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row container d-flex flex-grow-1 justify-content-center mx-auto" style="box-sizing: border-box;">
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2" style="box-sizing: border-box;">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row container d-flex flex-grow-1 justify-content-center mx-auto" style="box-sizing: border-box;">
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2" style="box-sizing: border-box;">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 p-2">
-                <div class="card container px-0">
-                    <img src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supportimng text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
-                      </p>
-                      <div class="end-section d-flex justify-content-between flex-nowrap-md">
-                        <div class="left-btn">
-                          <a href="#" class="btn btn-light px-2">View</a>
-                          <a href="#" class="btn btn-light px-2">Edit</a>
-                        </div>
-                        <div class="right">9 mins</div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
+  <div class="cards-section">
+    <div class="container-fluid pb-5">
+      <div class="row pb-3">
+        <div class="col-lg-12 col-lg-6 col-lg-3">
+          <h1 class="cards-heading" id="flex-cards">Flex Cards</h1>
         </div>
       </div>
-
-      <footer class="bd-footer py-4 bg-light" id="footer">
-        <div class="container d-flex flex-column">
-            <div class="footer-heading d-flex justify-content-center p-2 pb-4">
-                <span>
-                  <img src="https://course.acciojob.com/acciojob_logo.svg" alt="acciojob logo">
-                </span>
-                <span class="px-2">About the Developer</span>
-                <span class="code-icon">
-                    <i class=" fa fa-duotone fa-code"></i>
-                </span>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
             </div>
-
-            <div class="personal-info container d-flex justify-content-start">
-                <span class="photo d-flex conatainer">
-                    <img src="https://media.licdn.com/dms/image/D5603AQEmgbdhsH3UKw/profile-displayphoto-shrink_800_800/0/1666937462598?e=1677110400&v=beta&t=9KFoZJ4z5hNOzBQQyPbcTQkZ5x-DUZNeAg9hNEPyk_U" alt="photo">
-                </span>
-
-                <span class="info-container position-relative">
-                  <ul class="d-flex flex-column position-absolute me-auto">
-                      <li class="d-flex flex-row conatainer">
-                          <span class="user-icon">
-                              <i class="fa fa-solid fa-user"></i>
-                          </span>
-                          <span class="name">Shubham Pol</span>
-                      </li>
-                      <li class="d-flex flex-row align-items-center justify-content-center">
-                          <span class="email-icon">
-                              <i class="fa fa-solid fa-envelope"></i>
-                          </span>
-                          <a href="mailto:meshubhampol@gmail.com">meshubhampol@gmail.com</a>
-                      </li>
-                      <li class="d-flex flex-row align-items-center justify-content-center">
-                        Hello, I am a Aspiring full Stack Developer. <br> I am currently in Frontend module 1.
-                      </li>
-                  </ul>
-                </span>
-            </div>
+          </div>
         </div>
-    </footer>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="card px-0">
+            <img
+              src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/5e60c43f3e2f9_template_image_1583399999.webp"
+              class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supportimng text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <div class="end-section d-flex justify-content-between">
+                <div class="left-btn">
+                  <a href="#" class="btn btn-light px-2">View</a>
+                  <a href="#" class="btn btn-light px-2">Edit</a>
+                </div>
+                <div class="right">9 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bd-footer container-fluid bg-light" id="footer">
+    <div class="container justify-content-center align-items-center">
+      <div class="row justify-content-center py-4 header">
+        <div class="col-lg-12 col-md-6 col-sm-4 d-flex justify-content-center align-items-center footer-heading">
+          <span>
+            <img src="https://course.acciojob.com/acciojob_logo.svg" alt="acciojob logo" class="img-fluid">
+          </span>
+          <span class="px-2">About the Developer</span>
+          <span class="code-icon">
+            <i class=" fa fa-duotone fa-code"></i>
+          </span>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center info">
+        <div class="col-md-6 col-sm-12 py-4 d-flex justify-content-sm-center justify-content-md-end">
+          <img class="img-fluid photo"
+            src="https://media.licdn.com/dms/image/D5603AQEmgbdhsH3UKw/profile-displayphoto-shrink_800_800/0/1666937462598?e=1677110400&v=beta&t=9KFoZJ4z5hNOzBQQyPbcTQkZ5x-DUZNeAg9hNEPyk_U"
+            alt="photo">
+        </div>
+        <div class="col-md-6 col-sm-12 info justify-content-md-start justify-content-sm-center">
+          <div class="user-icon">
+            <i class="fa fa-solid fa-user"></i>
+            <span class="name">Shubham Pol</span>
+          </div>
+          <div class="email-icon pb-2">
+            <i class="fa fa-solid fa-envelope"></i>
+            <a href="mailto:meshubhampol@gmail.com" class="email">meshubhampol@gmail.com</a>
+          </div>
+          <div class="info-text container">
+            <h5>
+              Hello, I am a Aspiring full Stack Developer. I am currently in Frontend module 1.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
